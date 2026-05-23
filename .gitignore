@@ -1,15 +1,36 @@
-# Credentials — ne jamais committer
+# ============================================
+# ENVIRONMENT & SECRETS (NEVER COMMIT)
+# ============================================
 .env
 .env.local
 .env.*.local
+.env.production
+.env.development
 
-# Dépendances
+# ============================================
+# SENSITIVE DATA
+# ============================================
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+
+# ============================================
+# BITWARDEN EXPORTS (IF ANY)
+# ============================================
+*.bitwarden.json
+*_vault_export.json
+
+# ============================================
+# NODE
+# ============================================
 node_modules/
+npm-debug.log*
+yarn-debug.log*
 
-# Logs
-*.log
-logs/
-
+# ============================================
 # OS
+# ============================================
 .DS_Store
 Thumbs.db
