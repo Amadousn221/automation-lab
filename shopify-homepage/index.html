@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="test-ai-engineer — Mode premium pour hommes, femmes et accessoires. Livraison rapide, retours gratuits.">
+  <title>test-ai-engineer — Mode Premium</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================
+       01. HEADER / NAVIGATION
+  ============================================ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+
+      <a href="/" class="header__logo" aria-label="test-ai-engineer — Accueil">
+        test-ai-engineer
+      </a>
+
+      <nav class="header__nav" id="nav" aria-label="Navigation principale">
+        <ul class="header__nav-list" role="list">
+          <li><a href="/" class="header__nav-link">Home</a></li>
+          <li><a href="/collections/men" class="header__nav-link">Men</a></li>
+          <li><a href="/collections/women" class="header__nav-link">Women</a></li>
+          <li><a href="/collections/accessories" class="header__nav-link">Accessories</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__icons">
+        <button class="header__icon-btn" aria-label="Rechercher">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="header__icon-btn" aria-label="Mon compte">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="header__icon-btn header__cart" aria-label="Panier — 0 articles">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="header__cart-count" aria-hidden="true">0</span>
+        </button>
+      </div>
+
+      <button class="header__hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================
+         02. HERO BANNER
+    ============================================ -->
+    <section class="hero" aria-label="Bannière principale">
+      <div class="hero__media">
+        <img
+          src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=1200"
+          alt="Collection mode premium test-ai-engineer — modèles portant des vêtements élégants"
+          class="hero__img"
+          loading="eager"
+          fetchpriority="high"
+          width="1200"
+          height="500"
+        >
+        <div class="hero__overlay" aria-hidden="true"></div>
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">Bienvenue à test-ai-engineer</h1>
+        <p class="hero__subtitle">Découvrez nos collections de mode premium et accessoires</p>
+        <a href="/collections/all" class="btn btn--gold">SHOP NOW</a>
+      </div>
+    </section>
+
+    <!-- ============================================
+         03. TRUST SIGNALS
+    ============================================ -->
+    <section class="trust" aria-label="Nos engagements">
+      <div class="container">
+        <ul class="trust__grid" role="list">
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">🚚</span>
+            <h3 class="trust__title">LIVRAISON RAPIDE</h3>
+            <p class="trust__text">Expédition mondiale rapide et fiable</p>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">💰</span>
+            <h3 class="trust__title">PRIX COMPÉTITIFS</h3>
+            <p class="trust__text">Meilleur rapport qualité/prix garanti</p>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">♻️</span>
+            <h3 class="trust__title">RETOUR FACILE</h3>
+            <p class="trust__text">Retours gratuits sous 30 jours</p>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">🔒</span>
+            <h3 class="trust__title">100% SÉCURISÉ</h3>
+            <p class="trust__text">Vos données protégées par SSL</p>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">👥</span>
+            <h3 class="trust__title">SUPPORT 24/7</h3>
+            <p class="trust__text">Réponse rapide via email et chat</p>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true">⭐</span>
+            <h3 class="trust__title">AVIS CLIENTS</h3>
+            <p class="trust__text">Note 5/5 — 2000+ avis vérifiés</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================
+         04. MEILLEURES VENTES
+    ============================================ -->
+    <section class="best-sellers" aria-labelledby="best-sellers-title">
+      <div class="container">
+        <h2 class="section-title" id="best-sellers-title">MEILLEURES VENTES</h2>
+        <ul class="products-grid" role="list">
+
+          <li class="product-card">
+            <a href="/products/classic-white-t-shirt" class="product-card__img-link" tabindex="-1" aria-hidden="true">
+              <div class="product-card__img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+                  alt="Classic White T-Shirt"
+                  class="product-card__img"
+                  loading="lazy"
+                  width="400"
+                  height="520"
+                >
+              </div>
+            </a>
+            <div class="product-card__info">
+              <h3 class="product-card__title">
+                <a href="/products/classic-white-t-shirt" class="product-card__title-link">Classic White T-Shirt</a>
+              </h3>
+              <p class="product-card__price">$29.99</p>
+              <div class="product-card__rating" aria-label="Note: 4.8 sur 5">
+                <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                <span class="product-card__rating-score">(4.8)</span>
+              </div>
+              <button class="btn btn--dark product-card__cta" aria-label="Ajouter Classic White T-Shirt au panier">ADD TO CART</button>
+            </div>
+          </li>
+
+          <li class="product-card">
+            <a href="/products/navy-crew-neck-sweater" class="product-card__img-link" tabindex="-1" aria-hidden="true">
+              <div class="product-card__img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400"
+                  alt="Navy Crew Neck Sweater"
+                  class="product-card__img"
+                  loading="lazy"
+                  width="400"
+                  height="520"
+                >
+              </div>
+            </a>
+            <div class="product-card__info">
+              <h3 class="product-card__title">
+                <a href="/products/navy-crew-neck-sweater" class="product-card__title-link">Navy Crew Neck Sweater</a>
+              </h3>
+              <p class="product-card__price">$79.99</p>
+              <div class="product-card__rating" aria-label="Note: 4.9 sur 5">
+                <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                <span class="product-card__rating-score">(4.9)</span>
+              </div>
+              <button class="btn btn--dark product-card__cta" aria-label="Ajouter Navy Crew Neck Sweater au panier">ADD TO CART</button>
+            </div>
+          </li>
+
+          <li class="product-card">
+            <a href="/products/blue-denim-jeans" class="product-card__img-link" tabindex="-1" aria-hidden="true">
+              <div class="product-card__img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1542272604-787c62d465d1?w=400"
+                  alt="Blue Denim Jeans"
+                  class="product-card__img"
+                  loading="lazy"
+                  width="400"
+                  height="520"
+                >
+              </div>
+            </a>
+            <div class="product-card__info">
+              <h3 class="product-card__title">
+                <a href="/products/blue-denim-jeans" class="product-card__title-link">Blue Denim Jeans</a>
+              </h3>
+              <p class="product-card__price">$99.99</p>
+              <div class="product-card__rating" aria-label="Note: 4.7 sur 5">
+                <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                <span class="product-card__rating-score">(4.7)</span>
+              </div>
+              <button class="btn btn--dark product-card__cta" aria-label="Ajouter Blue Denim Jeans au panier">ADD TO CART</button>
+            </div>
+          </li>
+
+          <li class="product-card">
+            <a href="/products/black-leather-belt" class="product-card__img-link" tabindex="-1" aria-hidden="true">
+              <div class="product-card__img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400"
+                  alt="Black Leather Belt"
+                  class="product-card__img"
+                  loading="lazy"
+                  width="400"
+                  height="520"
+                >
+              </div>
+            </a>
+            <div class="product-card__info">
+              <h3 class="product-card__title">
+                <a href="/products/black-leather-belt" class="product-card__title-link">Black Leather Belt</a>
+              </h3>
+              <p class="product-card__price">$39.99</p>
+              <div class="product-card__rating" aria-label="Note: 4.6 sur 5">
+                <span aria-hidden="true">⭐⭐⭐⭐☆</span>
+                <span class="product-card__rating-score">(4.6)</span>
+              </div>
+              <button class="btn btn--dark product-card__cta" aria-label="Ajouter Black Leather Belt au panier">ADD TO CART</button>
+            </div>
+          </li>
+
+        </ul>
+        <div class="section-cta">
+          <a href="/collections/all" class="btn btn--secondary">VIEW ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         05. CTA — 3 BANNERS COLLECTIONS
+    ============================================ -->
+    <section class="cta-banners" aria-label="Nos collections par genre">
+      <div class="container">
+        <div class="cta-banners__grid">
+
+          <article class="cta-banner">
+            <div class="cta-banner__media">
+              <img
+                src="https://images.unsplash.com/photo-1516217343722-142e0fc0c4b9?w=600"
+                alt="Modèle masculin — Collection Hommes"
+                class="cta-banner__img"
+                loading="lazy"
+                width="600"
+                height="400"
+              >
+              <div class="cta-banner__overlay" aria-hidden="true"></div>
+            </div>
+            <div class="cta-banner__content">
+              <h2 class="cta-banner__title">HOMMES</h2>
+              <a href="/collections/men" class="btn btn--secondary">SHOP MEN</a>
+            </div>
+          </article>
+
+          <article class="cta-banner">
+            <div class="cta-banner__media">
+              <img
+                src="https://images.unsplash.com/photo-1551986782-d244ca7b9b1d?w=600"
+                alt="Modèle féminin — Collection Femmes"
+                class="cta-banner__img"
+                loading="lazy"
+                width="600"
+                height="400"
+              >
+              <div class="cta-banner__overlay" aria-hidden="true"></div>
+            </div>
+            <div class="cta-banner__content">
+              <h2 class="cta-banner__title">FEMMES</h2>
+              <a href="/collections/women" class="btn btn--secondary">SHOP WOMEN</a>
+            </div>
+          </article>
+
+          <article class="cta-banner">
+            <div class="cta-banner__media">
+              <img
+                src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600"
+                alt="Accessoires de mode — Collection Accessories"
+                class="cta-banner__img"
+                loading="lazy"
+                width="600"
+                height="400"
+              >
+              <div class="cta-banner__overlay" aria-hidden="true"></div>
+            </div>
+            <div class="cta-banner__content">
+              <h2 class="cta-banner__title">ACCESSORIES</h2>
+              <a href="/collections/accessories" class="btn btn--secondary">SHOP ACCESSORIES</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         06. PROMO SECTION
+    ============================================ -->
+    <section class="promo" aria-label="Offre spéciale — jusqu'à 30% de réduction">
+      <div class="container promo__inner">
+        <p class="promo__icon" aria-hidden="true">⚡</p>
+        <h2 class="promo__title">OFFRE SPÉCIALE</h2>
+        <p class="promo__subtitle">JUSQU'À 30% DE RÉDUCTION</p>
+        <div class="promo__code-wrap">
+          <button
+            class="promo__code"
+            id="promo-code"
+            aria-label="Code promo SAVE30 — cliquer pour copier"
+            title="Cliquer pour copier"
+          >
+            SAVE30
+          </button>
+          <span class="promo__tooltip" id="promo-tooltip" aria-live="polite" role="status"></span>
+        </div>
+        <p class="promo__desc">Sur la sélection spéciale — Stock limité</p>
+        <a href="/collections/sale" class="btn btn--gold">SHOP SALE COLLECTION</a>
+        <p class="promo__expiry">Offre valide jusqu'au 30 juin 2026</p>
+      </div>
+    </section>
+
+    <!-- ============================================
+         07. NEWSLETTER
+    ============================================ -->
+    <section class="newsletter" aria-labelledby="newsletter-title">
+      <div class="container newsletter__inner">
+        <h2 class="newsletter__title" id="newsletter-title">Rejoignez notre communauté</h2>
+        <p class="newsletter__desc">
+          Recevez les offres exclusives, les nouveautés et les réductions en avant-première
+        </p>
+        <form class="newsletter__form" id="newsletter-form" novalidate aria-label="Inscription à la newsletter">
+          <div class="newsletter__fields">
+            <label for="newsletter-email" class="sr-only">Votre adresse email</label>
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              class="newsletter__input"
+              placeholder="Entrez votre email"
+              required
+              autocomplete="email"
+              aria-required="true"
+            >
+            <button type="submit" class="btn btn--gold">S'abonner</button>
+          </div>
+          <p class="newsletter__privacy">✓ Nous ne vendons pas vos données</p>
+          <p class="newsletter__success" id="newsletter-success" aria-live="polite" hidden>
+            Merci ! Vérifiez votre email.
+          </p>
+          <p class="newsletter__error" id="newsletter-error" aria-live="polite" hidden>
+            Veuillez saisir une adresse email valide.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       08. FOOTER
+  ============================================ -->
+  <footer class="footer" aria-label="Pied de page">
+    <div class="container footer__top">
+
+      <nav class="footer__col" aria-label="Boutique">
+        <h4 class="footer__heading">SHOP</h4>
+        <ul class="footer__list" role="list">
+          <li><a href="/collections/men" class="footer__link">Men</a></li>
+          <li><a href="/collections/women" class="footer__link">Women</a></li>
+          <li><a href="/collections/accessories" class="footer__link">Accessories</a></li>
+          <li><a href="/collections/best-sellers" class="footer__link">Best Sellers</a></li>
+          <li><a href="/collections/sale" class="footer__link">Sale</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Entreprise">
+        <h4 class="footer__heading">COMPANY</h4>
+        <ul class="footer__list" role="list">
+          <li><a href="/pages/about" class="footer__link">About</a></li>
+          <li><a href="/pages/contact" class="footer__link">Contact</a></li>
+          <li><a href="/blogs/news" class="footer__link">Blog</a></li>
+          <li><a href="/pages/careers" class="footer__link">Careers</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Informations légales">
+        <h4 class="footer__heading">LEGAL</h4>
+        <ul class="footer__list" role="list">
+          <li><a href="/policies/privacy-policy" class="footer__link">Privacy</a></li>
+          <li><a href="/policies/terms-of-service" class="footer__link">Terms</a></li>
+          <li><a href="/policies/refund-policy" class="footer__link">Returns</a></li>
+          <li><a href="/policies/shipping-policy" class="footer__link">Shipping</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">FOLLOW</h4>
+        <ul class="footer__list" role="list">
+          <li><a href="https://facebook.com" class="footer__link" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://instagram.com" class="footer__link" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://twitter.com" class="footer__link" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__divider"></div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">© 2026 test-ai-engineer. Tous droits réservés.</p>
+      <p class="footer__powered">Powered by Shopify</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
